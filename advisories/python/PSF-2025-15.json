@@ -1,11 +1,11 @@
 {
+  "modified": "2025-12-01T19:00:58Z",
+  "published": "2025-12-01T18:13:32Z",
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2025-13837",
+  "id": "PSF-2025-15",
   "aliases": [
     "CVE-2025-13837"
   ],
-  "published": "2025-12-01T18:13:32.739Z",
-  "modified": "2025-12-01T19:00:58.282Z",
   "details": "When loading a plist file, the plistlib module reads data in size specified by the file itself, meaning a malicious file can cause OOM and DoS issues",
   "affected": [
     {

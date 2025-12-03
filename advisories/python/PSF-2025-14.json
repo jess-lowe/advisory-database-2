@@ -1,6 +1,6 @@
 {
-  "modified": "2025-12-01T19:00:52Z",
-  "published": "2025-12-01T18:02:38Z",
+  "modified": "2025-12-02T18:29:21.886Z",
+  "published": "2025-12-01T18:02:38.483Z",
   "schema_version": "1.5.0",
   "id": "PSF-2025-14",
   "aliases": [
@@ -44,6 +44,10 @@
     {
       "type": "FIX",
       "url": "https://github.com/python/cpython/commit/5a4c4a033a4a54481be6870aa1896fad732555b5"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/OQ6G7MKRQIS3OAREC3HNG3D2DPOU34XO/"
     }
   ],
   "database_specific": {

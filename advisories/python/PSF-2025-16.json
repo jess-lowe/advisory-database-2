@@ -1,11 +1,11 @@
 {
+  "modified": "2025-12-03T19:14:59Z",
+  "published": "2025-12-03T18:55:32Z",
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2025-12084",
+  "id": "PSF-2025-16",
   "aliases": [
     "CVE-2025-12084"
   ],
-  "published": "2025-12-03T18:55:32.222Z",
-  "modified": "2025-12-03T19:14:59.450Z",
   "details": "When building nested elements using xml.dom.minidom methods such as appendChild() that have a dependency on _clear_id_cache() the algorithm is quadratic. Availability can be impacted when building excessively nested documents.",
   "affected": [
     {

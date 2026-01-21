@@ -1,11 +1,11 @@
 {
+  "modified": "2026-01-20T22:27:52Z",
+  "published": "2026-01-20T21:47:09Z",
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2025-15367",
+  "id": "PSF-2026-4",
   "aliases": [
     "CVE-2025-15367"
   ],
-  "published": "2026-01-20T21:47:09.885Z",
-  "modified": "2026-01-20T22:27:52.184Z",
   "details": "The poplib module, when passed a user-controlled command, can have\nadditional commands injected using newlines. Mitigation rejects commands\ncontaining control characters.",
   "affected": [
     {

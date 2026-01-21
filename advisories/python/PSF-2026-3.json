@@ -1,11 +1,11 @@
 {
+  "modified": "2026-01-20T22:27:50Z",
+  "published": "2026-01-20T21:40:24Z",
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2025-15366",
+  "id": "PSF-2026-3",
   "aliases": [
     "CVE-2025-15366"
   ],
-  "published": "2026-01-20T21:40:24.938Z",
-  "modified": "2026-01-20T22:27:50.852Z",
   "details": "The imaplib module, when passed a user-controlled command, can have additional commands injected using newlines. Mitigation rejects commands containing control characters.",
   "affected": [
     {

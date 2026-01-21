@@ -1,11 +1,11 @@
 {
+  "modified": "2026-01-20T22:28:52Z",
+  "published": "2026-01-20T21:52:33Z",
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2026-0672",
+  "id": "PSF-2026-5",
   "aliases": [
     "CVE-2026-0672"
   ],
-  "published": "2026-01-20T21:52:33.925Z",
-  "modified": "2026-01-20T22:28:52.111Z",
   "details": "When using http.cookies.Morsel, user-controlled cookie values and parameters can allow injecting HTTP headers into messages. Patch rejects all control characters within cookie names, values, and parameters.",
   "affected": [
     {

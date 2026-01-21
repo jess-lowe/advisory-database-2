@@ -1,11 +1,11 @@
 {
+  "modified": "2026-01-20T22:27:28Z",
+  "published": "2026-01-20T21:09:11Z",
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2025-11468",
+  "id": "PSF-2026-1",
   "aliases": [
     "CVE-2025-11468"
   ],
-  "published": "2026-01-20T21:09:11.229Z",
-  "modified": "2026-01-20T22:27:28.606Z",
   "details": "When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.",
   "affected": [
     {

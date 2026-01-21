@@ -1,11 +1,11 @@
 {
+  "modified": "2026-01-20T22:27:49Z",
+  "published": "2026-01-20T21:35:13Z",
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2025-15282",
+  "id": "PSF-2026-2",
   "aliases": [
     "CVE-2025-15282"
   ],
-  "published": "2026-01-20T21:35:13.865Z",
-  "modified": "2026-01-20T22:27:49.522Z",
   "details": "User-controlled data URLs parsed by urllib.request.DataHandler allow injecting headers through newlines in the data URL mediatype.",
   "affected": [
     {

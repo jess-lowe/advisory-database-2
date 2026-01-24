@@ -1,12 +1,12 @@
 {
+  "modified": "2026-01-23T16:56:22Z",
+  "published": "2026-01-23T16:27:13Z",
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2026-1299",
+  "id": "PSF-2026-8",
   "aliases": [
     "CVE-2026-1299"
   ],
-  "published": "2026-01-23T16:27:13.346Z",
-  "modified": "2026-01-23T16:56:22.155Z",
-  "details": "The \nemail module, specifically the \"BytesGenerator\" class, didn\u2019t properly quote newlines for email headers when \nserializing an email message allowing for header injection when an email\n is serialized. This is only applicable if using \"LiteralHeader\" writing headers that don't respect email folding rules, the new behavior will reject the incorrectly folded headers in \"BytesGenerator\".",
+  "details": "The \nemail module, specifically the \"BytesGenerator\" class, didn’t properly quote newlines for email headers when \nserializing an email message allowing for header injection when an email\n is serialized. This is only applicable if using \"LiteralHeader\" writing headers that don't respect email folding rules, the new behavior will reject the incorrectly folded headers in \"BytesGenerator\".",
   "affected": [
     {
       "ranges": [

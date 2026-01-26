@@ -28,4 +28,4 @@ jobs:
         with:
           title: "Update OSV records from CVE"
           commit-message: "Update OSV records from CVE"
-          reviewers: sethmlarson,ewdurbin
+          reviewers: sethmlarson,jacobcoffee

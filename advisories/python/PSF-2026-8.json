@@ -1,12 +1,12 @@
 {
-  "modified": "2026-01-23T16:56:22Z",
-  "published": "2026-01-23T16:27:13Z",
+  "modified": "2026-01-26T14:20:21.976Z",
+  "published": "2026-01-23T16:27:13.346Z",
   "schema_version": "1.5.0",
   "id": "PSF-2026-8",
   "aliases": [
     "CVE-2026-1299"
   ],
-  "details": "The \nemail module, specifically the \"BytesGenerator\" class, didn’t properly quote newlines for email headers when \nserializing an email message allowing for header injection when an email\n is serialized. This is only applicable if using \"LiteralHeader\" writing headers that don't respect email folding rules, the new behavior will reject the incorrectly folded headers in \"BytesGenerator\".",
+  "details": "The \nemail module, specifically the \"BytesGenerator\" class, didn\u2019t properly quote newlines for email headers when \nserializing an email message allowing for header injection when an email\n is serialized. This is only applicable if using \"LiteralHeader\" writing headers that don't respect email folding rules, the new behavior will reject the incorrectly folded headers in \"BytesGenerator\".",
   "affected": [
     {
       "ranges": [
@@ -18,6 +18,18 @@
             },
             {
               "fixed": "052e55e7d44718fe46cbba0ca995cb8fcc359413"
+            },
+            {
+              "fixed": "0a925ab591c45d6638f37b5e57796f36fa0e56d8"
+            },
+            {
+              "fixed": "7877fe424415bc4a13045e62a90a7277413d8cb9"
+            },
+            {
+              "fixed": "842ce19a0c0b58d61591e8f6a708c38db1fb94e4"
+            },
+            {
+              "fixed": "8cdf6204f4ae821f32993f8fc6bad0d318f95f36"
             }
           ],
           "repo": "https://github.com/python/cpython"
@@ -45,6 +57,22 @@
     {
       "type": "FIX",
       "url": "https://github.com/python/cpython/commit/052e55e7d44718fe46cbba0ca995cb8fcc359413"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/0a925ab591c45d6638f37b5e57796f36fa0e56d8"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/7877fe424415bc4a13045e62a90a7277413d8cb9"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/842ce19a0c0b58d61591e8f6a708c38db1fb94e4"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/8cdf6204f4ae821f32993f8fc6bad0d318f95f36"
     }
   ],
   "database_specific": {

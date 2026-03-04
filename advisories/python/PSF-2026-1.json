@@ -1,5 +1,5 @@
 {
-  "modified": "2026-02-02T21:56:06.614Z",
+  "modified": "2026-03-03T14:41:28.324Z",
   "published": "2026-01-20T21:09:11.229Z",
   "schema_version": "1.5.0",
   "id": "PSF-2026-1",
@@ -30,6 +30,9 @@
             },
             {
               "fixed": "a76e4cd62dd68e7cbe86e37e6ed988495a646b66"
+            },
+            {
+              "fixed": "003b8315669b9f08b1010a49071f73f15f818094"
             }
           ],
           "repo": "https://github.com/python/cpython"
@@ -69,6 +72,10 @@
     {
       "type": "FIX",
       "url": "https://github.com/python/cpython/commit/a76e4cd62dd68e7cbe86e37e6ed988495a646b66"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/003b8315669b9f08b1010a49071f73f15f818094"
     }
   ],
   "database_specific": {

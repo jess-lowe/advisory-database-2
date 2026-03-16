@@ -1,17 +1,18 @@
 {
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2026-3644",
+  "id": "PSF-2026-11",
+  "published": "2026-03-16T17:37:31.344Z",
+  "modified": "2026-03-16T18:25:55.021Z",
   "aliases": [
     "CVE-2026-3644"
   ],
-  "published": "2026-03-16T17:37:31.344Z",
-  "modified": "2026-03-16T18:25:55.021Z",
   "details": "The fix for CVE-2026-0672, which rejected control characters in http.cookies.Morsel, was incomplete. The Morsel.update(), |= operator, and unpickling paths were not patched, allowing control characters to bypass input validation. Additionally, BaseCookie.js_output() lacked the output validation applied to BaseCookie.output().",
   "affected": [
     {
       "ranges": [
         {
           "type": "GIT",
+          "repo": "https://github.com/python/cpython",
           "events": [
             {
               "introduced": "0"
@@ -25,8 +26,7 @@
             {
               "fixed": "d16ecc6c3626f0e2cc8f08c309c83934e8a979dd"
             }
-          ],
-          "repo": "https://github.com/python/cpython"
+          ]
         }
       ]
     }

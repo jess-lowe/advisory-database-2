@@ -1,23 +1,23 @@
 {
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2026-3479",
+  "id": "PSF-2026-13",
+  "published": "2026-03-18T18:13:42.288Z",
+  "modified": "2026-03-18T18:50:41.609Z",
   "aliases": [
     "CVE-2026-3479"
   ],
-  "published": "2026-03-18T18:13:42.288Z",
-  "modified": "2026-03-18T18:50:41.609Z",
   "details": "pkgutil.get_data() did not validate the resource argument as documented, allowing path traversals.",
   "affected": [
     {
       "ranges": [
         {
           "type": "GIT",
+          "repo": "https://github.com/python/cpython",
           "events": [
             {
               "introduced": "0"
             }
-          ],
-          "repo": "https://github.com/python/cpython"
+          ]
         }
       ]
     }

@@ -1,23 +1,23 @@
 {
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2026-4519",
+  "id": "PSF-2026-14",
+  "published": "2026-03-20T15:08:32.576Z",
+  "modified": "2026-03-20T20:07:08.244Z",
   "aliases": [
     "CVE-2026-4519"
   ],
-  "published": "2026-03-20T15:08:32.576Z",
-  "modified": "2026-03-20T20:07:08.244Z",
   "details": "The webbrowser.open() API would accept leading dashes in the URL which \ncould be handled as command line options for certain web browsers. New \nbehavior rejects leading dashes. Users are recommended to sanitize URLs \nprior to passing to webbrowser.open().",
   "affected": [
     {
       "ranges": [
         {
           "type": "GIT",
+          "repo": "https://github.com/python/cpython",
           "events": [
             {
               "introduced": "0"
             }
-          ],
-          "repo": "https://github.com/python/cpython"
+          ]
         }
       ]
     }

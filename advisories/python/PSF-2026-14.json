@@ -2,7 +2,7 @@
   "schema_version": "1.5.0",
   "id": "PSF-2026-14",
   "published": "2026-03-20T15:08:32.576Z",
-  "modified": "2026-03-24T19:03:47.279Z",
+  "modified": "2026-04-07T22:01:57.205Z",
   "aliases": [
     "CVE-2026-4519"
   ],
@@ -30,6 +30,27 @@
             },
             {
               "fixed": "ceac1efc66516ac387eef2c9a0ce671895b44f03"
+            },
+            {
+              "fixed": "cbba6119391112aba9c5aebf7b94aea447922c48"
+            },
+            {
+              "fixed": "3681d47a440865aead912a054d4599087b4270dd"
+            },
+            {
+              "fixed": "591ed890270c5697b013bf637029fb3e6cd2d73e"
+            },
+            {
+              "fixed": "594b5a05dc9913880ac92eded440defbf32a28d1"
+            },
+            {
+              "fixed": "89bfb8e5ed3c7caa241028f1a4eac5f6275a46a4"
+            },
+            {
+              "fixed": "96fc5048605863c7b6fd6289643feb0e97edd96c"
+            },
+            {
+              "fixed": "cc023511238ad93ecc8796157c6f9139a2bb2932"
             }
           ],
           "repo": "https://github.com/python/cpython"
@@ -69,6 +90,34 @@
     {
       "type": "FIX",
       "url": "https://github.com/python/cpython/commit/ceac1efc66516ac387eef2c9a0ce671895b44f03"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/cbba6119391112aba9c5aebf7b94aea447922c48"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/3681d47a440865aead912a054d4599087b4270dd"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/591ed890270c5697b013bf637029fb3e6cd2d73e"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/594b5a05dc9913880ac92eded440defbf32a28d1"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/89bfb8e5ed3c7caa241028f1a4eac5f6275a46a4"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/96fc5048605863c7b6fd6289643feb0e97edd96c"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/cc023511238ad93ecc8796157c6f9139a2bb2932"
     }
   ],
   "database_specific": {

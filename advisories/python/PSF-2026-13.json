@@ -2,11 +2,11 @@
   "schema_version": "1.5.0",
   "id": "PSF-2026-13",
   "published": "2026-03-18T18:13:42.288Z",
-  "modified": "2026-03-19T18:07:58.305Z",
+  "modified": "2026-04-07T22:01:35.724Z",
   "aliases": [
     "CVE-2026-3479"
   ],
-  "details": "pkgutil.get_data() did not validate the resource argument as documented, allowing path traversals.",
+  "details": "DISPUTED: The project has clarified that the documentation was incorrect, and that pkgutil.get_data() has the same security model as open(). The documentation has been updated to clarify this point. There is no vulnerability in the function if following the intended security model.\n\npkgutil.get_data() did not validate the resource argument as documented, allowing path traversals.",
   "affected": [
     {
       "ranges": [
@@ -18,6 +18,15 @@
             },
             {
               "fixed": "bcdf231946b1da8bdfbab4c05539bb0cc964a1c7"
+            },
+            {
+              "fixed": "5af6ce3e7b643a30a02d22245c1e3f4a8bc0a1fe"
+            },
+            {
+              "fixed": "cf59bf76470f3d75ad47d80ffb8ce76b64b5e943"
+            },
+            {
+              "fixed": "d786d59a8f7196bb630100a869f28ad13436b59c"
             }
           ],
           "repo": "https://github.com/python/cpython"
@@ -41,6 +50,18 @@
     {
       "type": "FIX",
       "url": "https://github.com/python/cpython/commit/bcdf231946b1da8bdfbab4c05539bb0cc964a1c7"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/5af6ce3e7b643a30a02d22245c1e3f4a8bc0a1fe"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/cf59bf76470f3d75ad47d80ffb8ce76b64b5e943"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/python/cpython/commit/d786d59a8f7196bb630100a869f28ad13436b59c"
     }
   ],
   "database_specific": {

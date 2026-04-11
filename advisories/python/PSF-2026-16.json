@@ -1,17 +1,18 @@
 {
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2026-3446",
+  "id": "PSF-2026-16",
+  "published": "2026-04-10T18:17:35.045Z",
+  "modified": "2026-04-10T18:26:41.904Z",
   "aliases": [
     "CVE-2026-3446"
   ],
-  "published": "2026-04-10T18:17:35.045Z",
-  "modified": "2026-04-10T18:26:41.904Z",
   "details": "When calling base64.b64decode() or related functions the decoding process would stop after encountering the first padded quad regardless of whether there was more information to be processed. This can lead to data being accepted which may be processed differently by other implementations. Use \"validate=True\" to enable stricter processing of base64 data.",
   "affected": [
     {
       "ranges": [
         {
           "type": "GIT",
+          "repo": "https://github.com/python/cpython",
           "events": [
             {
               "introduced": "0"
@@ -25,8 +26,7 @@
             {
               "fixed": "e31c55121620189a0d1a07b689762d8ca9c1b7fa"
             }
-          ],
-          "repo": "https://github.com/python/cpython"
+          ]
         }
       ]
     }

@@ -1,17 +1,18 @@
 {
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2026-5713",
+  "id": "PSF-2026-19",
+  "published": "2026-04-14T15:11:51.122Z",
+  "modified": "2026-04-14T16:07:07.344Z",
   "aliases": [
     "CVE-2026-5713"
   ],
-  "published": "2026-04-14T15:11:51.122Z",
-  "modified": "2026-04-14T16:07:07.344Z",
   "details": "The \"profiling.sampling\" module (Python 3.15+) and \"asyncio introspection capabilities\" (3.14+, \"python -m asyncio ps\" and \"python -m asyncio pstree\") features could be used to read and write addresses in a privileged process if that process connected to a malicious or \"infected\" Python process via the remote debugging feature. This vulnerability requires persistently and repeatedly connecting to the process to be exploited, even after the connecting process crashes with high likelihood due to ASLR.",
   "affected": [
     {
       "ranges": [
         {
           "type": "GIT",
+          "repo": "https://github.com/python/cpython",
           "events": [
             {
               "introduced": "0"
@@ -19,8 +20,7 @@
             {
               "fixed": "289fd2c97a7e5aecb8b69f94f5e838ccfeee7e67"
             }
-          ],
-          "repo": "https://github.com/python/cpython"
+          ]
         }
       ]
     }

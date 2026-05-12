@@ -1,23 +1,23 @@
 {
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2026-7210",
+  "id": "PSF-2026-23",
+  "published": "2026-05-11T17:19:09.784Z",
+  "modified": "2026-05-11T20:34:17.811Z",
   "aliases": [
     "CVE-2026-7210"
   ],
-  "published": "2026-05-11T17:19:09.784Z",
-  "modified": "2026-05-11T20:34:17.811Z",
   "details": "`xml.parsers.expat` and `xml.etree.ElementTree` use insufficient entropy for Expat hash-flooding protection, which allows a crafted XML document to trigger hash flooding.\\r\\n\\r\\nFully mitigating this vulnerability requires both updating libexpat to 2.8.0 or later and applying this patch.",
   "affected": [
     {
       "ranges": [
         {
           "type": "GIT",
+          "repo": "https://github.com/python/cpython",
           "events": [
             {
               "introduced": "0"
             }
-          ],
-          "repo": "https://github.com/python/cpython"
+          ]
         }
       ]
     }

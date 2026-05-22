@@ -1,23 +1,23 @@
 {
   "schema_version": "1.5.0",
-  "id": "PSF-0000-CVE-2026-8328",
+  "id": "PSF-2026-24",
+  "published": "2026-05-13T20:14:33.751Z",
+  "modified": "2026-05-14T12:49:39.908Z",
   "aliases": [
     "CVE-2026-8328"
   ],
-  "published": "2026-05-13T20:14:33.751Z",
-  "modified": "2026-05-14T12:49:39.908Z",
-  "details": "The ftpcp() function in Lib/ftplib.py was not updated when \nCVE-2021-4189 was fixed. While makepasv() was patched to replace \nserver-supplied PASV host addresses with the actual peer address \n(getpeername()[0]), ftpcp() still calls parse227() directly and passes \nthe raw attacker-controllable IP address and port to target.sendport(). This patch is related to\u00a0CVE-2021-4189.",
+  "details": "The ftpcp() function in Lib/ftplib.py was not updated when \nCVE-2021-4189 was fixed. While makepasv() was patched to replace \nserver-supplied PASV host addresses with the actual peer address \n(getpeername()[0]), ftpcp() still calls parse227() directly and passes \nthe raw attacker-controllable IP address and port to target.sendport(). This patch is related to CVE-2021-4189.",
   "affected": [
     {
       "ranges": [
         {
           "type": "GIT",
+          "repo": "https://github.com/python/cpython",
           "events": [
             {
               "introduced": "0"
             }
-          ],
-          "repo": "https://github.com/python/cpython"
+          ]
         }
       ]
     }
